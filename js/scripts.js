@@ -140,6 +140,7 @@ document.addEventListener('DOMContentLoaded', function() {
             options: ["S2", "S4", "S3", "S1"],
             answer: "S2",
             explanation: "El puente raíz se determina mediante la ID de puente más baja, que consiste en el valor de prioridad y la dirección MAC. Debido a que los valores de prioridad de todos los switches son idénticos, la dirección MAC se utiliza para determinar el puente raíz. Dado que el S2 tiene la dirección MAC más baja, el S2 se convierte en el puente raíz."
+            ,image: ["img/13.jpg"]
         },
         {
             number: 14,
